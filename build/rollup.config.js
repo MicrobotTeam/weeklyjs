@@ -9,7 +9,7 @@ module.exports = (options) => {
             plugins: [
                 resolve(),
                 babel({
-                  exclude: 'node_modules/**'
+                    exclude: 'node_modules/**'
                 })
             ]
         },
