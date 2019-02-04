@@ -1,6 +1,5 @@
-function add (a, b){
-    console.log(a + b);
-    return a + b;
-}
+import { count, increment } from './incrementer';
 
-add(1,2)
+console.log(count);
+increment();
+console.log(count);
