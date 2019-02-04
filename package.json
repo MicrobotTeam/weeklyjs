@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/MicrobotTeam/weeklyjs/issues"
   },
-  "homepage": "https://github.com/MicrobotTeam/weeklyjs#readme"
+  "homepage": "https://github.com/MicrobotTeam/weeklyjs#readme",
+  "devDependencies": {
+    "rollup": "^1.1.2"
+  }
 }
