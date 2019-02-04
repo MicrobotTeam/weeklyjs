@@ -1,0 +1,26 @@
+{
+  "name": "weeklyjs",
+  "version": "1.0.0",
+  "description": "handle weeekly about day",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicrobotTeam/weeklyjs.git"
+  },
+  "keywords": [
+    "weekly",
+    "day"
+  ],
+  "author": "reng99",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MicrobotTeam/weeklyjs/issues"
+  },
+  "homepage": "https://github.com/MicrobotTeam/weeklyjs#readme"
+}
