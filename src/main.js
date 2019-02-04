@@ -1,5 +1,10 @@
-import { count, increment } from './incrementer';
+export let count = 0;
 
-console.log(count);
-increment();
-console.log(count);
+export const sayHi = () => {
+    return 'hello';
+}
+
+export const sum = (a, b) => {
+    console.log('sum');
+    return a + b;
+}

@@ -1,5 +1,19 @@
 {
-    "presets": [
-      ["@babel/env", {"modules": false}]
-    ]
+    "env": {
+        "test": {
+            "presets": [
+                "@babel/preset-env"
+            ]
+        },
+        "build": {
+            "presets": [
+                [
+                    "@babel/preset-env", 
+                    {
+                        "modules": false
+                    }
+                ]
+            ]
+        }
+    }
 }
